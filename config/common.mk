@@ -132,27 +132,17 @@ PRODUCT_PACKAGES += \
 
 # Optional packages
 PRODUCT_PACKAGES += \
-    LiveWallpapersPicker \
-    PhotoTable \
-    Terminal
+    LiveWallpapersPicker
 
 # Custom Lineage packages
 PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
-    LineageSetupWizard \
-    Eleven \
     ExactCalculator \
-    Jelly \
     LockClock \
     TrebuchetQuickStep \
-    Updater \
     WallpaperPicker \
-    WeatherProvider
-
-# Exchange support
-PRODUCT_PACKAGES += \
-    Exchange2
+    Eleven
 
 # Berry styles
 PRODUCT_PACKAGES += \
@@ -170,22 +160,22 @@ PRODUCT_PACKAGES += \
     LineageYellowAccent
 
 # Extra tools in Lineage
-PRODUCT_PACKAGES += \
-    7z \
-    awk \
-    bash \
-    bzip2 \
-    curl \
-    htop \
-    lib7z \
-    libsepol \
-    pigz \
-    powertop \
-    unrar \
-    unzip \
-    vim \
-    wget \
-    zip
+#PRODUCT_PACKAGES += \
+#    7z \
+#    awk \
+#    bash \
+#    bzip2 \
+#    curl \
+#    htop \
+#    lib7z \
+#    libsepol \
+#    pigz \
+#    powertop \
+#    unrar \
+#    unzip \
+#    vim \
+#    wget \
+#    zip
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -209,18 +199,18 @@ PRODUCT_PACKAGES += \
     mount.ntfs
 
 # Openssh
-PRODUCT_PACKAGES += \
-    scp \
-    sftp \
-    ssh \
-    sshd \
-    sshd_config \
-    ssh-keygen \
-    start-ssh
+#PRODUCT_PACKAGES += \
+#    scp \
+#    sftp \
+#    ssh \
+#    sshd \
+#    sshd_config \
+#    ssh-keygen \
+#    start-ssh
 
 # rsync
-PRODUCT_PACKAGES += \
-    rsync
+#PRODUCT_PACKAGES += \
+#    rsync
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -231,11 +221,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true
 
 # These packages are excluded from user builds
-PRODUCT_PACKAGES_DEBUG += \
-    micro_bench \
-    procmem \
-    procrank \
-    strace
+#PRODUCT_PACKAGES_DEBUG += \
+#    micro_bench \
+#    procmem \
+#    procrank \
+#    strace
 
 # Conditionally build in su
 ifneq ($(TARGET_BUILD_VARIANT),user)
