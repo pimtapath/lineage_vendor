@@ -142,7 +142,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     TrebuchetQuickStep \
     WallpaperPicker \
-    Eleven
+    Eleven \
+    LineageSetupWizard
 
 # Berry styles
 PRODUCT_PACKAGES += \
